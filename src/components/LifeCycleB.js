@@ -23,7 +23,7 @@ class LifecycleB extends Component {
     console.log("Life cycle B , getSnapshotBeforeUpdate");
     return null
 }
-  }
+  
 
   componentDidUpdate() {
     console.log("Life cycle B , componentDidUpdate");
