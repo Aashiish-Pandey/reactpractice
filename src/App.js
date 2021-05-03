@@ -1,6 +1,6 @@
 import './App.css';
 import LifecycleA from './components/LifecycleA'
-import CompDidUpdate from './Counter-ShouldComponentUpdate/CompDidUpdate';
+import CompDidUpdate from './Counter-CompDidUpdate/CompDidUpdate';
 
 function App() {
   return (

@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 
 class Counter2 extends Component {
+	
+	shouldComponentUpdate(nextProps,props) {
+
+		if (nextProps.value!== this.props.value) {
+			return true
+		} else {
+			return false
+		}
+
+	}
 render() {
 	console.log("Counter 2 is calling");
 	return (
