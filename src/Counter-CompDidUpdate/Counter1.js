@@ -1,16 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-class Counter1 extends Component {
+class Counter1 extends PureComponent {
 
-	shouldComponentUpdate(nextProps,props) {
-
-		if (nextProps.value!== this.props.value) {
-			return true
-		} else {
-			return false
-		}
-
-	}
+	
 render() {
 	console.log("Counter 1 is calling");
 	return (
